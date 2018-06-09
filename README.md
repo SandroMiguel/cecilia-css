@@ -1,5 +1,5 @@
 # Cecilia CSS
-Cecilia CSS is a framework based on Bootstrap and Foundation: the best of both worlds.
+Cecilia CSS is a framework based on [Bootstrap](https://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/): the best of both worlds.
 
 See [kisscecilia.com](http://kisscecilia.com/)
 
