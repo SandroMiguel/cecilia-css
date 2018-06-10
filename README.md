@@ -18,13 +18,9 @@ Get CSS code [here](styles.css)
 1. [License](#license)
 
 ## Browser Support
-* Chrome 49+
-* Edge 17+
-* Firefox 59+
-* IE 11
-* Safari 11.1+
-* Chrome for Android 66+
-* iOS Safari 10.3+
+Chrome | Edge | Firefox | IE | Safari | Chrome for Android | iOS Safari
+:----: | :--: | :-----: | :-: | :---: | :----------------: | :-------:
+  49+  |  17+ |   59+   | 11 |  11.1+ |         66+        |   10.3+
 
 ## Contributing
 Want to contribute? Just make a pull request. All contributions are welcome.
