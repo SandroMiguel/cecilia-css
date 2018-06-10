@@ -9,6 +9,8 @@ See [kisscecilia.com](http://kisscecilia.com/)
 
 Get CSS code [here](styles.css)
 
+Current version: 0.3
+
 * Built with [flexbox](https://caniuse.com/#feat=flexbox)
 * There is no JavaScript included
 
