@@ -3,6 +3,8 @@
 # Welcome to Cecilia CSS
 **Cecilia CSS is a framework based on [Bootstrap](https://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/): the best of both worlds.**
 
+[![license](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+
 CSS Framework applying "Keep It Simple Stupid" principle
 
 See [kisscecilia.com](http://kisscecilia.com/)
