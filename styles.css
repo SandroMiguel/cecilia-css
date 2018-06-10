@@ -492,17 +492,6 @@ pre code {
     margin-right: auto;
     margin-left: auto; }
 
-.row_old {
-    /* temp - remover */
-    margin-right: -15px;
-    margin-left: -15px; }
-
-.row_old::after {
-    /* temp - remover */
-    content: "";
-    display: table;
-    clear: both; }
-
 .row {
     display: -ms-flexbox;
     display: flex;
