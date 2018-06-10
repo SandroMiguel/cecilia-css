@@ -13,6 +13,7 @@ Get CSS code [here](styles.css)
 
 Current version: **0.3**
 
+* A responsive grid with 5 breakpoints
 * Built with [flexbox](https://caniuse.com/#feat=flexbox)
 * There is no JavaScript included
 
