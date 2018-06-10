@@ -16,6 +16,7 @@ Current version: **0.3**
 * A responsive grid with 5 breakpoints
 * Built with [flexbox](https://caniuse.com/#feat=flexbox)
 * There is no JavaScript included
+* No external dependencies
 
 ## Table of Contents
 1. [Browser Support](#browser-support)
