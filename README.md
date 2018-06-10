@@ -1,6 +1,6 @@
 <p align="center"><img src="http://kisscecilia.com/public/img/logo_cecilia_css.png" alt="Cecilia CSS" /></p>
 
-# Cecilia CSS
+# Welcome to Cecilia CSS
 **Cecilia CSS is a framework based on [Bootstrap](https://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/): the best of both worlds.**
 
 CSS Framework applying "Keep It Simple Stupid" principle
