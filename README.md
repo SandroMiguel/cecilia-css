@@ -8,9 +8,9 @@ See [kisscecilia.com](http://kisscecilia.com/)
 Get CSS code [here](styles.css)
 
 ## Table of Contents
-1. [Contributing](#Contributing)
-1. [Questions](#Questions)
-1. [License](#License)
+1. [Contributing](#contributing)
+1. [Questions](#questions)
+1. [License](#license)
 
 ## Contributing
 Want to contribute? Just make a pull request. All contributions are welcome.
