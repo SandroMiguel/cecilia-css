@@ -1,0 +1,40 @@
+{
+  "name": "cecilia-css",
+  "version": "0.3.0",
+  "description": "Cecilia CSS is a framework based on Bootstrap and Foundation: the best of both worlds.",
+  "main": "dist/cecilia.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandroMiguel/cecilia-css.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "framework",
+    "responsive",
+    "front-end"
+  ],
+  "author": "Sandro Miguel Marques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SandroMiguel/cecilia-css/issues"
+  },
+  "homepage": "https://github.com/SandroMiguel/cecilia-css#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.2.1"
+  }
+}
