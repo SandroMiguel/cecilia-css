@@ -4,6 +4,7 @@
 **Cecilia CSS is a framework based on [Bootstrap](https://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/): the best of both worlds.**
 
 [![npm version](https://badge.fury.io/js/cecilia-css.svg)](https://badge.fury.io/js/cecilia-css)
+[![Dependency Status](https://david-dm.org/SandroMiguel/cecilia-css.svg)](https://david-dm.org/SandroMiguel/cecilia-css)
 [![license](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
 CSS Framework applying "Keep It Simple Stupid" principle
