@@ -29,11 +29,20 @@ Current version: **0.3.0**
 
 ## Getting Started
 
+### Use from the CDN
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cecilia-css@0.3.0/dist/cecilia.min.css">
+```
+
 ### Install with npm
-`npm i cecilia-css`
+```
+npm i cecilia-css
+```
 
 ### Install with Yarn
-`yarn add cecilia-css`
+```
+yarn add cecilia-css
+```
 
 ## Browser Support
 Chrome | Edge | Firefox | IE | Safari | Chrome for Android | iOS Safari
