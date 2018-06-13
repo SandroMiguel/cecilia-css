@@ -21,10 +21,19 @@ Current version: **0.3.0**
 * No external dependencies
 
 ## Table of Contents
+1. [Getting Started](#getting-started)
 1. [Browser Support](#browser-support)
 1. [Contributing](#contributing)
 1. [Questions](#questions)
 1. [License](#license)
+
+## Getting Started
+
+### Install with npm
+`npm i cecilia-css`
+
+### Install with Yarn
+`yarn add cecilia-css`
 
 ## Browser Support
 Chrome | Edge | Firefox | IE | Safari | Chrome for Android | iOS Safari
