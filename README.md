@@ -44,6 +44,14 @@ npm i cecilia-css
 yarn add cecilia-css
 ```
 
+### Clone the repo
+```
+git clone https://github.com/SandroMiguel/cecilia-css.git
+```
+
+### Download
+Download the [latest release](https://github.com/SandroMiguel/cecilia-css/releases/latest)
+
 ## Browser Support
 Chrome | Edge | Firefox | IE | Safari | Chrome for Android | iOS Safari
 :----: | :--: | :-----: | :-: | :---: | :----------------: | :-------:
