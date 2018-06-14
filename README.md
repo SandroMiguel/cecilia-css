@@ -30,27 +30,49 @@ Current version: **0.3.0**
 ## Getting Started
 
 ### Use from the CDN
+The easiest and fastest way.
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cecilia-css@0.3.0/dist/cecilia.min.css">
 ```
 
 ### Install with npm
+Install Cecilia CSS from npm.
 ```
 npm i cecilia-css
 ```
+Link the CSS into your page.
+```
+<link rel="stylesheet" href="dist/cecilia.min.css">
+```
 
 ### Install with Yarn
+Install Cecilia CSS from Yarn.
 ```
 yarn add cecilia-css
 ```
+Link the CSS into your page.
+```
+<link rel="stylesheet" href="dist/cecilia.min.css">
+```
 
 ### Clone the repo
+Clone the project into the current directory.
 ```
 git clone https://github.com/SandroMiguel/cecilia-css.git
 ```
+Link the CSS into your page.
+```
+<link rel="stylesheet" href="dist/cecilia.min.css">
+```
 
 ### Download
-Download the [latest release](https://github.com/SandroMiguel/cecilia-css/releases/latest)
+Download the [latest release](https://github.com/SandroMiguel/cecilia-css/releases/latest) (entire project) or just 
+the minified file [cecilia.min.css](https://raw.githubusercontent.com/SandroMiguel/cecilia-css/master/dist/cecilia.min.css)
+
+Copy the `dist/cecilia.min.css` file to your project and link the CSS into your page.
+```
+<link rel="stylesheet" href="css/cecilia.min.css">
+```
 
 ## Browser Support
 Chrome | Edge | Firefox | IE | Safari | Chrome for Android | iOS Safari
