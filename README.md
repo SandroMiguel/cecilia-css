@@ -42,7 +42,7 @@ npm i cecilia-css
 ```
 Link the CSS into your page.
 ```
-<link rel="stylesheet" href="dist/cecilia.min.css">
+<link rel="stylesheet" href="public/css/cecilia.min.css">
 ```
 
 ### Install with Yarn
@@ -52,7 +52,7 @@ yarn add cecilia-css
 ```
 Link the CSS into your page.
 ```
-<link rel="stylesheet" href="dist/cecilia.min.css">
+<link rel="stylesheet" href="public/css/cecilia.min.css">
 ```
 
 ### Clone the repo
@@ -62,7 +62,7 @@ git clone https://github.com/SandroMiguel/cecilia-css.git
 ```
 Link the CSS into your page.
 ```
-<link rel="stylesheet" href="dist/cecilia.min.css">
+<link rel="stylesheet" href="public/css/cecilia.min.css">
 ```
 
 ### Download
