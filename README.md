@@ -6,7 +6,7 @@
 [![Dependency Status](https://david-dm.org/SandroMiguel/cecilia-css.svg)](https://david-dm.org/SandroMiguel/cecilia-css)
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
-## tl;dr
+## TL;DR
 **Cecilia CSS is a framework based on [Bootstrap](https://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/): the best of both worlds.**
 
 CSS Framework applying "Keep It Simple Stupid" principle
@@ -82,7 +82,7 @@ Chrome | Edge | Firefox | IE | Safari | Chrome for Android | iOS Safari
   49+  |  17+ |   59+   | 11 |  11.1+ |         66+        |   10.3+
 
 ## Contributing
-Want to contribute? Just make a pull request. All contributions are welcome.
+Want to contribute? All contributions are welcome. Read the [contributing guide](CONTRIBUTING.md).
 
 ## Questions
 If you have questions tweet me at [@SandroMiguel77](https://twitter.com/SandroMiguel77) or [open an issue](https://github.com/SandroMiguel/cecilia-css/issues/new).
