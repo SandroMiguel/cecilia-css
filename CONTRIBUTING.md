@@ -4,7 +4,7 @@ Want to contribute? All contributions are welcome.
 
 ## Bugs, Questions and Improvements
 
-Bugs, Questions and Improvements can be discussed on the [issue tracker](../issues).
+Bugs, Questions and Improvements can be discussed on the [issue tracker](../../issues).
 
 ## Docs
 
