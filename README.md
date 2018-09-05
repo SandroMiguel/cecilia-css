@@ -1,24 +1,26 @@
 <p align="center"><img src="http://kisscecilia.com/public/img/logo_cecilia_css.png" alt="Cecilia CSS" /></p>
 
 # Welcome to Cecilia CSS
-**Cecilia CSS is a framework based on [Bootstrap](https://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/): the best of both worlds.**
 
 [![npm version](https://badge.fury.io/js/cecilia-css.svg)](https://badge.fury.io/js/cecilia-css)
 [![Dependency Status](https://david-dm.org/SandroMiguel/cecilia-css.svg)](https://david-dm.org/SandroMiguel/cecilia-css)
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
+## tl;dr
+**Cecilia CSS is a framework based on [Bootstrap](https://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/): the best of both worlds.**
+
 CSS Framework applying "Keep It Simple Stupid" principle
+
+* A responsive grid with 5 breakpoints
+* Built with [flexbox](https://caniuse.com/#feat=flexbox)
+* There is no JavaScript included
+* No external dependencies
 
 See [kisscecilia.com](http://kisscecilia.com/)
 
 Get CSS code [here](dist/cecilia.css)
 
 Current version: **0.3.0**
-
-* A responsive grid with 5 breakpoints
-* Built with [flexbox](https://caniuse.com/#feat=flexbox)
-* There is no JavaScript included
-* No external dependencies
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
