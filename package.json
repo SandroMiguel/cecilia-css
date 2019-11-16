@@ -1,15 +1,28 @@
 {
   "name": "cecilia-css",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "Cecilia CSS is a framework based on Bootstrap and Foundation: the best of both worlds.",
   "main": "dist/cecilia.min.css",
+  "license": "MIT",
+  "author": {
+    "name": "Sandro Miguel Marques",
+    "email": "sandromiguel@sandromiguel.com",
+    "url": "http://sandromiguel.com"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SandroMiguel/cecilia-css.git"
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": "git@github.com:SandroMiguel/cecilia-css.git",
   "keywords": [
     "css",
     "sass",
@@ -17,24 +30,27 @@
     "responsive",
     "front-end"
   ],
-  "author": "Sandro Miguel Marques",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SandroMiguel/cecilia-css/issues"
   },
-  "homepage": "https://github.com/SandroMiguel/cecilia-css#readme",
+  "homepage": "http://www.kisscecilia.com/",
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
     "babel-core": "^6.26.3",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.1",
+    "cz-conventional-changelog": "^3.0.2",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-cssnano": "^2.1.3",
-    "gulp-if": "^2.0.2",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-rename": "^1.2.3",
-    "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.0",
-    "run-sequence": "^2.2.1"
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "husky": "^3.0.9",
+    "run-sequence": "^2.2.1",
+    "standard-version": "^7.0.0"
   }
 }
