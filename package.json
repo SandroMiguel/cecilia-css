@@ -1,6 +1,6 @@
 {
   "name": "cecilia-css",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Cecilia CSS is a framework based on Bootstrap and Foundation: the best of both worlds.",
   "main": "dist/cecilia.min.css",
   "license": "MIT",
@@ -10,7 +10,17 @@
     "url": "http://sandromiguel.com"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "repository": "git@github.com:SandroMiguel/cecilia-css.git",
   "keywords": [
@@ -25,7 +35,10 @@
   },
   "homepage": "http://www.kisscecilia.com/",
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
     "babel-core": "^6.26.3",
+    "cz-conventional-changelog": "^3.0.2",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
@@ -36,6 +49,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "run-sequence": "^2.2.1"
+    "husky": "^3.0.9",
+    "run-sequence": "^2.2.1",
+    "standard-version": "^7.0.0"
   }
 }
