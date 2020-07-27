@@ -54,6 +54,6 @@
         "gulp-uglify": "^3.0.2",
         "husky": "^4.2.3",
         "run-sequence": "^2.2.1",
-        "standard-version": "^7.1.0"
+        "standard-version": "^8.0.1"
     }
 }
