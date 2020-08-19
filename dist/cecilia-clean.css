@@ -13,6 +13,9 @@
  * @version     0.3.1 (2020/08/14)
  * @link        https://github.com/SandroMiguel/cecilia-css
  */
+:root {
+  --fontFamilyBase: Ubuntu, Roboto, Arial, sans-serif; }
+
 /* #1. RESET STYLE v2.0.0 (2018/02/17)
  **********************************************************************************************************************/
 *,
