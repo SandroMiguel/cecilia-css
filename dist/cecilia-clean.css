@@ -10,32 +10,38 @@
  * @package     Cecilia CSS (clean flavor)
  * @author      Sandro Miguel Marques - http://sandromiguel.com
  * @license     MIT Open Source
- * @version     v.0.3 (03.06.2018)
+ * @version     0.3.1 (2020/08/14)
  * @link        https://github.com/SandroMiguel/cecilia-css
  */
-body {
-  display: block; }
-
-.test {
-  background-color: #dad55e; }
-
-/* #1. RESET STYLE v.2.0 (17/02/2018)
+/* #1. RESET STYLE v2.0.0 (2018/02/17)
  **********************************************************************************************************************/
 *,
 *::before,
 *::after {
   box-sizing: border-box; }
 
+body {
+  margin: 0;
+  font-family: "sans-serif";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff; }
+
 html {
   font-family: sans-serif;
-  line-height: 1.15;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #252525;
+  background-color: #fff;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
-@-ms-viewport {
-  width: device-width; }
+[tabindex="-1"]:focus:not(:focus-visible) {
+  outline: 0 !important; }
 
 article,
 aside,
@@ -48,19 +54,6 @@ main,
 nav,
 section {
   display: block; }
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff; }
-
-[tabindex="-1"]:focus {
-  outline: 0 !important; }
 
 hr {
   box-sizing: content-box;
@@ -108,7 +101,7 @@ dt {
   font-weight: 700; }
 
 dd {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   margin-left: 0; }
 
 blockquote {
@@ -132,10 +125,10 @@ sup {
   vertical-align: baseline; }
 
 sub {
-  bottom: -.25em; }
+  bottom: -0.25em; }
 
 sup {
-  top: -.5em; }
+  top: -0.5em; }
 
 a {
   color: #007bff;
@@ -151,7 +144,8 @@ a:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none; }
 
-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+a:not([href]):not([tabindex]):hover,
+a:not([href]):not([tabindex]):focus {
   color: inherit;
   text-decoration: none; }
 
@@ -196,7 +190,7 @@ th {
 
 label {
   display: inline-block;
-  margin-bottom: .5rem; }
+  margin-bottom: 0.5rem; }
 
 button {
   border-radius: 0; }
@@ -262,7 +256,7 @@ legend {
   width: 100%;
   max-width: 100%;
   padding: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 1.5rem;
   line-height: inherit;
   color: inherit;
@@ -338,7 +332,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid #E5E5E5; }
+  border-top: 1px solid #e5e5e5; }
 
 /* Emphasis */
 small {
@@ -361,7 +355,7 @@ blockquote {
 blockquote:before {
   left: -6px;
   position: relative;
-  color: #B8B7B7;
+  color: #b8b7b7;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1rem;
@@ -371,7 +365,7 @@ blockquote:before {
 cite {
   display: block;
   font-size: 1rem;
-  color: #B8B7B7; }
+  color: #b8b7b7; }
 
 cite:before {
   content: "\2014 \0020"; }
@@ -438,9 +432,9 @@ input {
   font-size: 1rem;
   line-height: 1.5;
   color: #222;
-  background-color: #FFF;
+  background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
@@ -451,28 +445,29 @@ input::-ms-expand {
 input:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #BBB;
+  border-color: #bbb;
   outline: 0;
   box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.1); }
 
 input::-webkit-input-placeholder {
-  color: #AAA;
+  color: #aaa;
   opacity: 1; }
 
 input::-moz-placeholder {
-  color: #AAA;
+  color: #aaa;
   opacity: 1; }
 
 input:-ms-input-placeholder {
-  color: #AAA;
+  color: #aaa;
   opacity: 1; }
 
 input::placeholder {
-  color: #AAA;
+  color: #aaa;
   opacity: 1; }
 
-input:disabled, input[readonly] {
-  background-color: #DDD;
+input:disabled,
+input[readonly] {
+  background-color: #ddd;
   opacity: 1; }
 
 select:not([size]):not([multiple]) {
@@ -480,7 +475,7 @@ select:not([size]):not([multiple]) {
 
 select:focus::-ms-value {
   color: #222;
-  background-color: #FFF; }
+  background-color: #fff; }
 
 input[type="file"],
 input[type="range"] {
@@ -490,9 +485,9 @@ input[type="range"] {
   font-size: 1rem;
   line-height: 1.5;
   color: #222;
-  background-color: #FFF;
+  background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
