@@ -1,6 +1,54 @@
 // Variables
 
+// General
+$hrMarginY: 1rem !default;
+$hrOpacity: 0.25 !default;
+$textAlign: null !default;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+// scss-docs-start grid-breakpoints
+$gridBreakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1440px,
+) !default;
+
+// Grid containers
+$containerMaxWidths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1400px,
+) !default;
+
 // Typography
-// $fontFamilyBase: var(--fontFamilyBase) !default;
-// $fontFamilyBase: "sans-serif" !default;
-$font: "sans-serif";
+$fontFamilyBase: var(--fontFamilyBase) !default;
+$fontFamilyCode: var(--fontFamilyCode) !default;
+$fontSizeBase: 1rem !default;
+$fontWeightNormal: 400 !default;
+$h1FontSize: $fontSizeBase * 2.5 !default;
+$h2FontSize: $fontSizeBase * 2 !default;
+$h3FontSize: $fontSizeBase * 1.75 !default;
+$h4FontSize: $fontSizeBase * 1.5 !default;
+$h5FontSize: $fontSizeBase * 1.25 !default;
+$h6FontSize: $fontSizeBase * 1.1 !default;
+$headingsMarginBottom: 0.5rem !default;
+$headingsFontFamily: null !default;
+$headingsFontStyle: null !default;
+$headingsFontWeight: 500 !default;
+$headingsLineHeight: 1.2 !default;
+$headingsColor: null !default;
+$lineHeightBase: 1.5 !default;
+
+// Colors
+$backgroundColor: #fff !default;
+$colorBase: #1f1f1f !default;
+$hrColor: inherit !default;

@@ -2,14 +2,15 @@
  * Cecilia CSS - a set of tools for quick development of web interfaces.
  * Based on Bootstrap and Foundation: the best of both worlds.
  *
- * @copyright   2015-2018 Sandro Miguel Marques
- * @copyright   2011-2018 The Bootstrap Authors
- * @copyright   2011-2018 Twitter, Inc.
- * @copyright   2011-2018 ZURB, Inc.
+ * @copyright   2015-2020 Sandro Miguel Marques
+ * @copyright   2011-2020 Twitter, Inc.
+ * @copyright   2011-2020 The Bootstrap Authors
+ * @copyright   2011-2020 ZURB, Inc.
+ * @copyright   Nicolas Gallagher and Jonathan Neal
  * @package     Cecilia CSS (clean flavor)
  * @author      Sandro Miguel Marques - http://sandromiguel.com
  * @license     MIT Open Source
- * @version     0.3.1 (2020/08/14)
+ * @version     0.1.0 (2020/08/21)
  * @link        https://github.com/SandroMiguel/cecilia-css
  */
 
@@ -29,49 +30,40 @@
 // Body
 body {
     margin: 0;
-    font-family: $font;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff;
+    font-family: $fontFamilyBase;
+    font-size: $fontSizeBase;
+    font-weight: $fontWeightNormal;
+    line-height: $lineHeightBase;
+    color: $colorBase;
+    text-align: $textAlign;
+    background-color: $backgroundColor;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(#000, 0);
 }
 
 html {
-    font-family: sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #252525;
-    background-color: #fff;
+    line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
     outline: 0 !important;
 }
 
-article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section {
+main {
     display: block;
 }
 
+// Content grouping
 hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
+    margin: $hrMarginY 0;
+    color: $hrColor;
+    border: 0;
+    border-top: 1px solid currentColor;
+    opacity: $hrOpacity;
 }
 
+// Typography
 h1,
 h2,
 h3,
@@ -79,7 +71,72 @@ h4,
 h5,
 h6 {
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: $headingsMarginBottom;
+    font-family: $headingsFontFamily;
+    font-style: $headingsFontStyle;
+    font-weight: $headingsFontWeight;
+    line-height: $headingsLineHeight;
+    color: $headingsColor;
+}
+
+h1 {
+    font-size: calc(#{$h1FontSize} - 1.5rem + 3vw);
+}
+
+@media (min-width: map-get($gridBreakpoints, "xl")) {
+    h1 {
+        font-size: $h1FontSize;
+    }
+}
+
+h2 {
+    font-size: calc(#{$h2FontSize} - 1.5rem + 3vw);
+}
+
+@media (min-width: map-get($gridBreakpoints, "xl")) {
+    h2 {
+        font-size: $h2FontSize;
+    }
+}
+
+h3 {
+    font-size: calc(#{$h3FontSize} - 1.5rem + 3vw);
+}
+
+@media (min-width: map-get($gridBreakpoints, "xl")) {
+    h3 {
+        font-size: $h3FontSize;
+    }
+}
+
+h4 {
+    font-size: calc(#{$h4FontSize} - 1.5rem + 3vw);
+}
+
+@media (min-width: map-get($gridBreakpoints, "xl")) {
+    h4 {
+        font-size: $h4FontSize;
+    }
+}
+
+h5 {
+    font-size: calc(#{$h5FontSize} - 1.5rem + 3vw);
+}
+
+@media (min-width: map-get($gridBreakpoints, "xl")) {
+    h5 {
+        font-size: $h5FontSize;
+    }
+}
+
+h6 {
+    font-size: calc(#{$h6FontSize} - 1.5rem + 3vw);
+}
+
+@media (min-width: map-get($gridBreakpoints, "xl")) {
+    h6 {
+        font-size: $h6FontSize;
+    }
 }
 
 p {
@@ -188,8 +245,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-        "Courier New", monospace;
+    font-family: $fontFamilyCode;
     font-size: 1em;
 }
 
