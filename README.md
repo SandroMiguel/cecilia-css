@@ -122,7 +122,6 @@ Compile `cecilia.scss` file to `cecilia.css`
 
 ```
 yarn build
-
 ```
 
 ### 5. Commit your changes
