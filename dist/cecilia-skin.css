@@ -3,10 +3,10 @@
  * Cecilia CSS - a set of tools for quick development of web interfaces.
  * Based on Bootstrap and Foundation: the best of both worlds.
  *
- * @copyright   2015-2018 Sandro Miguel Marques
- * @copyright   2011-2018 The Bootstrap Authors
- * @copyright   2011-2018 Twitter, Inc.
- * @copyright   2011-2018 ZURB, Inc.
+ * @copyright   2015-2020 Sandro Miguel Marques
+ * @copyright   2011-2020 Twitter, Inc.
+ * @copyright   2011-2020 The Bootstrap Authors
+ * @copyright   2011-2020 ZURB, Inc.
  * @package     Cecilia CSS (skin flavor)
  * @author      Sandro Miguel Marques - http://sandromiguel.com
  * @license     MIT Open Source
@@ -108,7 +108,7 @@ dt {
   font-weight: 700; }
 
 dd {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   margin-left: 0; }
 
 blockquote {
@@ -132,10 +132,10 @@ sup {
   vertical-align: baseline; }
 
 sub {
-  bottom: -.25em; }
+  bottom: -0.25em; }
 
 sup {
-  top: -.5em; }
+  top: -0.5em; }
 
 a {
   color: #007bff;
@@ -151,7 +151,8 @@ a:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none; }
 
-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+a:not([href]):not([tabindex]):hover,
+a:not([href]):not([tabindex]):focus {
   color: inherit;
   text-decoration: none; }
 
@@ -196,7 +197,7 @@ th {
 
 label {
   display: inline-block;
-  margin-bottom: .5rem; }
+  margin-bottom: 0.5rem; }
 
 button {
   border-radius: 0; }
@@ -262,7 +263,7 @@ legend {
   width: 100%;
   max-width: 100%;
   padding: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 1.5rem;
   line-height: inherit;
   color: inherit;
@@ -371,7 +372,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid #E5E5E5; }
+  border-top: 1px solid #e5e5e5; }
 
 /* Emphasis */
 small,
@@ -406,7 +407,7 @@ blockquote {
 blockquote:before {
   left: -6px;
   position: relative;
-  color: #B8B7B7;
+  color: #b8b7b7;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1rem;
@@ -416,7 +417,7 @@ blockquote:before {
 cite {
   display: block;
   font-size: 1rem;
-  color: #B8B7B7; }
+  color: #b8b7b7; }
 
 cite:before {
   content: "\2014 \0020"; }
@@ -509,11 +510,75 @@ pre code {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
-.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
-.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
-.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col,
+.col-auto,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm,
+.col-sm-auto,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md,
+.col-md-auto,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg,
+.col-lg-auto,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl,
 .col-xl-auto {
   position: relative;
   width: 100%;
@@ -1246,9 +1311,9 @@ pre code {
   font-size: 1rem;
   line-height: 1.5;
   color: #222;
-  background-color: #FFF;
+  background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
@@ -1259,28 +1324,29 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #BBB;
+  border-color: #bbb;
   outline: 0;
   box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.1); }
 
 .form-control::-webkit-input-placeholder {
-  color: #AAA;
+  color: #aaa;
   opacity: 1; }
 
 .form-control::-moz-placeholder {
-  color: #AAA;
+  color: #aaa;
   opacity: 1; }
 
 .form-control:-ms-input-placeholder {
-  color: #AAA;
+  color: #aaa;
   opacity: 1; }
 
 .form-control::placeholder {
-  color: #AAA;
+  color: #aaa;
   opacity: 1; }
 
-.form-control:disabled, .form-control[readonly] {
-  background-color: #DDD;
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #ddd;
   opacity: 1; }
 
 select.form-control:not([size]):not([multiple]) {
@@ -1288,7 +1354,7 @@ select.form-control:not([size]):not([multiple]) {
 
 select.form-control:focus::-ms-value {
   color: #222;
-  background-color: #FFF; }
+  background-color: #fff; }
 
 .form-control-file,
 .form-control-range {
@@ -1298,9 +1364,9 @@ select.form-control:focus::-ms-value {
   font-size: 1rem;
   line-height: 1.5;
   color: #222;
-  background-color: #FFF;
+  background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
@@ -1308,4 +1374,4 @@ select.form-control:focus::-ms-value {
    #18. APP CUSTOM STYLES (Cecilia CSS)
  * ========================================================================== */
 
-/*# sourceMappingURL=cecilia.css.map */
+/*# sourceMappingURL=cecilia-skin.css.map */
