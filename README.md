@@ -8,27 +8,23 @@
 
 ## TL;DR
 
-**Cecilia CSS is a framework based on [Bootstrap](https://getbootstrap.com/) and [Foundation](http://foundation.zurb.com/): the best of both worlds.**
-
 CSS Framework applying "Keep It Simple Stupid" principle
 
 -   A responsive grid with 5 breakpoints
 -   Built with [flexbox](https://caniuse.com/#feat=flexbox)
 -   There is no JavaScript included
--   No external dependencies
-
-See [kisscecilia.com](http://kisscecilia.com/)
+-   Only one dependency: [normalize.css](https://github.com/necolas/normalize.css)
 
 Get CSS code [here](dist/cecilia.css)
-
-Current version: **0.3.0**
 
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
 1. [Browser Support](#browser-support)
+1. [Development](#development)
 1. [Contributing](#contributing)
 1. [Questions](#questions)
+1. [Changelog](#changelog)
 1. [License](#license)
 
 ## Getting Started
@@ -100,13 +96,62 @@ Copy the `dist/cecilia.min.css` file to your project and link the CSS into your 
 | :----: | :--: | :-----: | :-: | :----: | :----------------: | :--------: |
 |  49+   | 17+  |   59+   | 11  | 11.1+  |        66+         |   10.3+    |
 
+## Development
+
+### 1. Clone this repo
+
+```
+git clone https://github.com/SandroMiguel/cecilia-css.git
+```
+
+### 2. Install dev dependencies
+
+```
+yarn install
+```
+
+### 3. Create a branch
+
+```
+git checkout -b branch-name
+```
+
+### 4. Compile your changes
+
+Compile `cecilia.scss` file to `cecilia.css`
+
+```
+yarn build
+
+```
+
+### 5. Commit your changes
+
+```
+git commit -m "Added a cool stuff"
+```
+
+### 6. Push your branch
+
+```
+git push origin my-branch
+```
+
+### 7. Open a pull request
+
+Open a Pull Request with a clear title and description.
+
 ## Contributing
 
-Want to contribute? All contributions are welcome. Read the [contributing guide](CONTRIBUTING.md).
+Want to contribute? All contributions are welcome. Please read the [contributing guide](CONTRIBUTING.md).
 
 ## Questions
 
 If you have questions tweet me at [@sandro_m_m](https://twitter.com/sandro_m_m) or [open an issue](https://github.com/SandroMiguel/cecilia-css/issues/new).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md)
 
 ## License
 

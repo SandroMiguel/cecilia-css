@@ -25,6 +25,7 @@
     },
     "homepage": "http://kisscecilia.com",
     "scripts": {
+        "build": "npx sass ./src/cecilia.scss ./dist/cecilia.css",
         "release": "standard-version"
     },
     "husky": {
@@ -53,7 +54,9 @@
         "gulp-sourcemaps": "^2.6.5",
         "gulp-uglify": "^3.0.2",
         "husky": "^4.2.5",
+        "normalize.css": "^8.0.1",
         "run-sequence": "^2.2.1",
         "standard-version": "^7.1.0"
-    }
+    },
+    "packageManager": "yarn@3.3.1"
 }
