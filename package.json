@@ -23,10 +23,11 @@
     "bugs": {
         "url": "https://github.com/SandroMiguel/cecilia-css/issues"
     },
-    "homepage": "http://kisscecilia.com",
+    "homepage": "https://github.com/SandroMiguel/cecilia-css",
     "scripts": {
         "build": "npx sass ./src/cecilia.scss ./dist/cecilia.css",
         "watch": "npx sass --watch ./src/cecilia.scss ./dist/cecilia.css",
+        "lint:scss": "stylelint \"./src/**/*.scss\"",
         "postinstall": "husky install",
         "release": "standard-version"
     },
@@ -36,12 +37,15 @@
         }
     },
     "devDependencies": {
-        "@babel/core": "^7.20.7",
+        "@babel/core": "^7.20.12",
         "@commitlint/cli": "^17.4.0",
         "@commitlint/config-conventional": "^17.4.0",
         "cz-conventional-changelog": "^3.3.0",
         "husky": "^8.0.3",
-        "normalize.css": "^8.0.1"
+        "normalize.css": "^8.0.1",
+        "stylelint": "^14.16.1",
+        "stylelint-config-prettier-scss": "^0.0.1",
+        "stylelint-config-standard-scss": "^6.1.0"
     },
     "packageManager": "yarn@3.3.1"
 }
