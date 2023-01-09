@@ -6,9 +6,9 @@
 [![Dependency Status](https://david-dm.org/SandroMiguel/cecilia-css.svg)](https://david-dm.org/SandroMiguel/cecilia-css)
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
-## TL;DR
+## About
 
-CSS Framework applying "Keep It Simple Stupid" principle
+Cecilia CSS is the CSS framework that I use in my personal projects. While it works, its purpose is to do some experiments while not relying on third-party frameworks, which are constantly changing.
 
 -   A responsive grid with 5 breakpoints
 -   Built with [flexbox](https://caniuse.com/#feat=flexbox)
@@ -65,20 +65,6 @@ Link the CSS into your page.
 <link rel="stylesheet" href="public/css/cecilia.min.css">
 ```
 
-### Clone the repo
-
-Clone the project into the current directory.
-
-```sh
-git clone https://github.com/SandroMiguel/cecilia-css.git
-```
-
-Link the CSS into your page.
-
-```
-<link rel="stylesheet" href="public/css/cecilia.min.css">
-```
-
 ### Download
 
 Download the [latest release](https://github.com/SandroMiguel/cecilia-css/releases/latest) (entire project) or just
@@ -92,9 +78,7 @@ Copy the `dist/cecilia.min.css` file to your project and link the CSS into your 
 
 ## Browser Support
 
-| Chrome | Edge | Firefox | IE  | Safari | Chrome for Android | iOS Safari |
-| :----: | :--: | :-----: | :-: | :----: | :----------------: | :--------: |
-|  49+   | 17+  |   59+   | 11  | 11.1+  |        66+         |   10.3+    |
+Only modern browsers
 
 ## Development
 
