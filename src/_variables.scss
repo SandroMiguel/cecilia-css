@@ -1,17 +1,16 @@
-// Variables
-
-// General
-$hrMarginY: 1rem !default;
-$hrOpacity: 0.25 !default;
-$textAlign: null !default;
+/**
+ * Default Sass variables.
+ *
+ * @copyright 2015-2023 Sandro Miguel Marques
+ * @package Cecilia CSS
+ * @author Sandro Miguel Marques - http://sandromiguel.com
+ * @license MIT Open Source
+ * @version v1.0.0 (2023/01/11)
+ * @link https://github.com/SandroMiguel/cecilia-css
+ */
 
 // Grid breakpoints
-//
-// Define the minimum dimensions at which your layout will change,
-// adapting to different screen sizes, for use in media queries.
-
-// scss-docs-start grid-breakpoints
-$gridBreakpoints: (
+$grid-breakpoints: (
     xs: 0,
     sm: 576px,
     md: 768px,
@@ -21,34 +20,29 @@ $gridBreakpoints: (
 ) !default;
 
 // Grid containers
-$containerMaxWidths: (
-    sm: 540px,
-    md: 720px,
-    lg: 960px,
-    xl: 1140px,
-    xxl: 1400px,
+$container-max-widths: (
+    sm: var(--cecilia-sm-container-max-width),
+    md: var(--cecilia-md-container-max-width),
+    lg: var(--cecilia-lg-container-max-width),
+    xl: var(--cecilia-xl-container-max-width),
+    xxl: var(--cecilia-xxl-container-max-width),
 ) !default;
 
 // Typography
-$fontFamilyBase: var(--fontFamilyBase) !default;
-$fontFamilyCode: var(--fontFamilyCode) !default;
-$fontSizeBase: 1rem !default;
-$fontWeightNormal: 400 !default;
-$h1FontSize: $fontSizeBase * 2.5 !default;
-$h2FontSize: $fontSizeBase * 2 !default;
-$h3FontSize: $fontSizeBase * 1.75 !default;
-$h4FontSize: $fontSizeBase * 1.5 !default;
-$h5FontSize: $fontSizeBase * 1.25 !default;
-$h6FontSize: $fontSizeBase * 1.1 !default;
-$headingsMarginBottom: 0.5rem !default;
-$headingsFontFamily: null !default;
-$headingsFontStyle: null !default;
-$headingsFontWeight: 500 !default;
-$headingsLineHeight: 1.2 !default;
-$headingsColor: null !default;
-$lineHeightBase: 1.5 !default;
+$font-family-base: var(--cecilia-font-family-base) !default;
+$font-family-code: ar(--cecilia-font-family-code) !default;
+$font-size-base: var(--cecilia-font-size-base) !default;
+$font-weight-base: var(--cecilia-font-weight-base) !default;
+$line-height-base: var(--cecilia-line-height-base) !default;
+$font-size-h1: var(--cecilia-h1-font-size) !default;
+$font-size-h2: var(--cecilia-h2-font-size) !default;
+$font-size-h3: var(--cecilia-h3-font-size) !default;
+$font-size-h4: var(--cecilia-h4-font-size) !default;
+$font-size-h5: var(--cecilia-h5-font-size) !default;
+$font-size-h6: var(--cecilia-h6-font-size) !default;
+$headings-margin-bottom: var(--cecilia-headings-margin-bottom) !default;
+$headings-line-height: var(--cecilia-headings-line-height) !default;
 
 // Colors
-$backgroundColor: #fff !default;
-$colorBase: #1f1f1f !default;
-$hrColor: inherit !default;
+$background-color: var(--cecilia-background-color) !default;
+$color-base: var(--cecilia-color-base) !default;
