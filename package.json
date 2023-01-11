@@ -25,11 +25,10 @@
     },
     "homepage": "https://github.com/SandroMiguel/cecilia-css",
     "scripts": {
-        "build": "npx sass ./src/cecilia.scss ./dist/cecilia.css",
-        "watch": "npx sass --watch ./src/cecilia.scss ./dist/cecilia.css",
+        "build": "npx sass ./src/cecilia.scss:./dist/cecilia.css ./src/sample.scss:./dist/sample.css",
+        "watch": "npx sass --watch ./src/cecilia.scss:./dist/cecilia.css ./src/sample.scss:./dist/sample.css",
         "lint:scss": "stylelint \"./src/**/*.scss\"",
-        "postinstall": "husky install",
-        "release": "standard-version"
+        "postinstall": "husky install"
     },
     "config": {
         "commitizen": {
