@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.4.0...v0.5.0) (2023-01-11)
+
+
+### Features
+
+* rename classes to lowerCamelCase ([c4bb513](https://github.com/SandroMiguel/cecilia-css/commit/c4bb51379ad14345ebb49088911c6e7176ad6de5))
+
 ## [0.4.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.3.4...v0.4.0) (2023-01-09)
 
 
