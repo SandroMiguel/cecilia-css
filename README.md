@@ -10,6 +10,7 @@
 
 Cecilia CSS is the CSS framework that I use in my personal projects. While it works, its purpose is to do some experiments while not relying on third-party frameworks, which are constantly changing.
 
+-   `lowerCamelCase` classes because they are easier to write in React
 -   A responsive grid with 5 breakpoints
 -   Built with [flexbox](https://caniuse.com/#feat=flexbox)
 -   There is no JavaScript included
