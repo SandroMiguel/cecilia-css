@@ -1,7 +1,7 @@
 {
     "name": "cecilia-css",
     "version": "0.5.0",
-    "description": "Cecilia CSS is a framework based on Bootstrap and Foundation: the best of both worlds.",
+    "description": "A set of tools for quick development of web interfaces.",
     "main": "dist/cecilia.min.css",
     "license": "MIT",
     "author": {
