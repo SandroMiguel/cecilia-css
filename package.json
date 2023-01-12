@@ -25,7 +25,7 @@
     },
     "homepage": "https://github.com/SandroMiguel/cecilia-css",
     "scripts": {
-        "build": "npx sass ./src/cecilia.scss:./dist/cecilia.css ./src/sample.scss:./dist/sample.css && npx sass --style=compressed ./src/cecilia.scss:./dist/cecilia.min.css",
+        "build": "npx sass ./src/cecilia.scss:./dist/cecilia.css ./src/docs/sample.scss:./docs/assets/sample.css && npx sass --style=compressed ./src/cecilia.scss:./dist/cecilia.min.css && npx sass --style=compressed ./src/cecilia.scss:./docs/assets/cecilia.min.css",
         "watch": "npx sass --watch ./src/cecilia.scss:./dist/cecilia.css ./src/sample.scss:./dist/sample.css",
         "lint:scss": "stylelint \"./src/**/*.scss\"",
         "postinstall": "husky install"

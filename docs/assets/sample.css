@@ -1,0 +1,101 @@
+/**
+ * Default Sass variables.
+ *
+ * @copyright 2015-2023 Sandro Miguel Marques
+ * @package Cecilia CSS
+ * @author Sandro Miguel Marques - http://sandromiguel.com
+ * @license MIT Open Source
+ * @version v1.0.0 (2023/01/11)
+ * @link https://github.com/SandroMiguel/cecilia-css
+ */
+/**
+ * Cecilia CSS sample.
+ *
+ * @copyright   2015-2023 Sandro Miguel Marques
+ * @package     Cecilia CSS
+ * @author      Sandro Miguel Marques - http://sandromiguel.com
+ * @license     MIT Open Source
+ * @version     v1.0.0 (2023/01/10)
+ * @link        https://github.com/SandroMiguel/cecilia-css
+ */
+.bkgColor1 {
+  background-color: #e9ecef;
+}
+
+.bkgColor2 {
+  background-color: #dee2e6;
+}
+
+.bkgColor3 {
+  background-color: #ced4da;
+}
+
+.containerName::before {
+  content: "xs";
+}
+
+.breakpoint::before {
+  content: "Breakpoint: 576px";
+}
+
+.maxWidth::before {
+  content: "Maximum container width: 100%";
+}
+
+@media (min-width: 576px) {
+  .containerName::before {
+    content: "sm";
+  }
+  .breakpoint::before {
+    content: "Breakpoint: 768px";
+  }
+  .maxWidth::before {
+    content: "Maximum container width: 540px";
+  }
+}
+@media (min-width: 768px) {
+  .containerName::before {
+    content: "md";
+  }
+  .breakpoint::before {
+    content: "Breakpoint: 992px";
+  }
+  .maxWidth::before {
+    content: "Maximum container width: 720px";
+  }
+}
+@media (min-width: 992px) {
+  .containerName::before {
+    content: "lg";
+  }
+  .breakpoint::before {
+    content: "Breakpoint: 1200px";
+  }
+  .maxWidth::before {
+    content: "Maximum container width: 960px";
+  }
+}
+@media (min-width: 1200px) {
+  .containerName::before {
+    content: "xl";
+  }
+  .breakpoint::before {
+    content: "Breakpoint: 1440px";
+  }
+  .maxWidth::before {
+    content: "Maximum container width: 1140px";
+  }
+}
+@media (min-width: 1440px) {
+  .containerName::before {
+    content: "xxl";
+  }
+  .breakpoint::before {
+    content: "Breakpoint: none";
+  }
+  .maxWidth::before {
+    content: "Maximum container width: 1400px";
+  }
+}
+
+/*# sourceMappingURL=sample.css.map */
