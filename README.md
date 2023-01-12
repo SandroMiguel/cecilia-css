@@ -1,4 +1,4 @@
-![Cecilia CSS](dist/img/logo_cecilia_css.png)
+![Cecilia CSS](docs/assets/logo_cecilia_css.png)
 
 # Welcome to Cecilia CSS
 
