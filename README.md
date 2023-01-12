@@ -2,8 +2,8 @@
 
 # Welcome to Cecilia CSS
 
-[![npm version](https://badge.fury.io/js/cecilia-css.svg)](https://badge.fury.io/js/cecilia-css)
-[![Dependency Status](https://david-dm.org/SandroMiguel/cecilia-css.svg)](https://david-dm.org/SandroMiguel/cecilia-css)
+![npm](https://img.shields.io/npm/v/cecilia-css?color=%230374B4)
+![gzip size](https://img.badgesize.io/SandroMiguel/cecilia-css/master/dist/cecilia.min.css?compression=gzip&color=blue)
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
 ## About
@@ -11,6 +11,7 @@
 Cecilia CSS is the CSS framework that I use in my personal projects. While it works, its purpose is to do some experiments while not relying on third-party frameworks, which are constantly changing.
 
 -   `lowerCamelCase` classes because they are easier to write in React
+-   Small file size: 3kB minified + gzip.
 -   A responsive grid with 5 breakpoints
 -   Built with [flexbox](https://caniuse.com/#feat=flexbox)
 -   There is no JavaScript included
@@ -35,7 +36,7 @@ Get CSS code [here](dist/cecilia.css)
 The easiest and fastest way.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cecilia-css@0.3.0/dist/cecilia.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cecilia-css">
 ```
 
 ### Install with npm
