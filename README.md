@@ -1,4 +1,4 @@
-<p align="center"><img src="http://kisscecilia.com/public/img/logo_cecilia_css.png" alt="Cecilia CSS" /></p>
+![Cecilia CSS](dist/img/logo_cecilia_css.png)
 
 # Welcome to Cecilia CSS
 
