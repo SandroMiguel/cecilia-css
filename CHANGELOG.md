@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.6.1](https://github.com/SandroMiguel/cecilia-css/compare/v0.6.0...v0.6.1) (2023-01-12)
+
+
+### Bug Fixes
+
+* rename col-* ([fbd0a73](https://github.com/SandroMiguel/cecilia-css/commit/fbd0a73f7b6905b8c7bd4cdf76bfc9e76c851ed6))
+
 ## [0.6.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.5.0...v0.6.0) (2023-01-12)
 
 
