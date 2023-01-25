@@ -26,7 +26,7 @@
     "homepage": "https://sandromiguel.github.io/cecilia-css",
     "scripts": {
         "build": "npx sass ./src/cecilia.scss:./dist/cecilia.css ./src/docs/sample.scss:./docs/assets/sample.css && npx sass --style=compressed ./src/cecilia.scss:./dist/cecilia.min.css && npx sass --style=compressed ./src/cecilia.scss:./docs/assets/cecilia.min.css",
-        "watch": "npx sass --watch ./src/cecilia.scss:./dist/cecilia.css ./src/sample.scss:./dist/sample.css",
+        "watch": "npx sass --watch ./src/cecilia.scss:./dist/cecilia.css ./src/sample.scss:./dist/sample.css & npx sass --style=compressed ./src/cecilia.scss:./dist/cecilia.min.css & npx sass --style=compressed ./src/cecilia.scss:./docs/assets/cecilia.min.css",
         "lint:scss": "stylelint \"./src/**/*.scss\""
     },
     "config": {
@@ -38,6 +38,7 @@
         "@babel/core": "^7.20.12",
         "@commitlint/cli": "^17.4.0",
         "@commitlint/config-conventional": "^17.4.0",
+        "cecilia-classless": "^0.1.0",
         "cz-conventional-changelog": "^3.3.0",
         "husky": "^8.0.3",
         "normalize.css": "^8.0.1",
