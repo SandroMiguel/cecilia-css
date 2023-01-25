@@ -1051,6 +1051,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cecilia-classless@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "cecilia-classless@npm:0.1.0"
+  checksum: 10c639d4dc3495ae2c9b663c19a377b847324dcb32201ea35525cfe6aeaaee30687e3f5bd8548e06862a7c7c8ceff1daac54ad7875f0a91e22c0af8f9723a093
+  languageName: node
+  linkType: hard
+
 "cecilia-css@workspace:.":
   version: 0.0.0-use.local
   resolution: "cecilia-css@workspace:."
@@ -1058,6 +1065,7 @@ __metadata:
     "@babel/core": ^7.20.12
     "@commitlint/cli": ^17.4.0
     "@commitlint/config-conventional": ^17.4.0
+    cecilia-classless: ^0.1.0
     cz-conventional-changelog: ^3.3.0
     husky: ^8.0.3
     normalize.css: ^8.0.1
