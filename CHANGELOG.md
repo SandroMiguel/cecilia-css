@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.7.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.6.1...v0.7.0) (2023-01-25)
+
+
+### Features
+
+* add .listUnstyled ([0e99013](https://github.com/SandroMiguel/cecilia-css/commit/0e99013bbbf597943968cd50e10ada502ff91482))
+* add spacing classes ([29a2b68](https://github.com/SandroMiguel/cecilia-css/commit/29a2b68b9a155747ae5d843d267b302b00ed7282))
+
 ## [0.6.1](https://github.com/SandroMiguel/cecilia-css/compare/v0.6.0...v0.6.1) (2023-01-12)
 
 
