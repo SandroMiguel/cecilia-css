@@ -4,3 +4,4 @@
 yarn lint:scss
 yarn build
 git add ./dist
+git add ./docs/assets
