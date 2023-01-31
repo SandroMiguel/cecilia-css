@@ -30,6 +30,10 @@
   background-color: #ced4da;
 }
 
+.bkgColor4 {
+  background-color: #000;
+}
+
 .containerName::before {
   content: "xs";
 }
