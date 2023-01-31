@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.8.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.7.0...v0.8.0) (2023-01-31)
+
+
+### Features
+
+* add animations ([630da62](https://github.com/SandroMiguel/cecilia-css/commit/630da62d8c504f0a77e0272ba4818eb6be4c6ae1))
+
 ## [0.7.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.6.1...v0.7.0) (2023-01-25)
 
 
