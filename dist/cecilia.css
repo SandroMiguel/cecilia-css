@@ -1917,4 +1917,104 @@ select.formControl:focus::-ms-value {
   padding-left: 3rem;
 }
 
+/* ========================================================================== *
+   Utilities | Text Align v1.0.0
+ * ========================================================================== */
+.textAlignCenter {
+  text-align: center;
+}
+
+/* ========================================================================== *
+   Animations v2.0.0 (2023/01/31)
+ * ========================================================================== */
+@keyframes blur {
+  0% {
+    opacity: 0;
+    filter: blur(0.4rem);
+  }
+  100% {
+    filter: none;
+  }
+}
+.blur {
+  opacity: 1;
+  animation: blur 1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+}
+.fadeOut {
+  animation: fadeOut 1s;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+.fadeIn {
+  opacity: 1;
+  animation: fadeIn 2s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+.fadeInUp {
+  position: relative;
+  animation: fadeInUp 0.4s, fadeIn 2s both;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInDown {
+  animation: fadeInDown 2s;
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}
+.zoomIn {
+  animation: zoomIn 1s;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spinner {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-top-color: #000;
+  animation: spin 1s infinite linear;
+  border-radius: 100%;
+  border-style: solid;
+}
+
 /*# sourceMappingURL=cecilia.css.map */
