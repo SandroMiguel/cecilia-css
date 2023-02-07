@@ -485,9 +485,10 @@
 
     <div class="row">
         <div class="col bkgColor1 p3">
-             <div class="containerName text2Xl"></div>
-             <div class="breakpoint"></div>
-             <div class="maxWidth"></div>
+             <span>Detected: </span><span class="containerName text2Xl"></span>
+             <div><span>Breakpoint: </span><span class="breakpoint textLg"></span></div>
+             <div><span>Maximum container width: </span><span class="maxWidth textLg"></span></div>
+             <p>(resize your browser to see the difference)</p>
         </div>
     </div> 
 
@@ -519,7 +520,6 @@
             <pre>&lt;div class=&quot;container&quot;&gt;...&lt;/div&gt;</pre>
         </div>
     </div>
-
 
     <!-- Equal width -->
     <br><br>
@@ -563,6 +563,68 @@
         </div>
     </div>
 
+    <!-- Responsive columns -->
+    <br><br>
+    <h1>Responsive columns</h1>
+    <div class="row">
+        <div class="col12">
+            <ul>
+                <li class="listUnstyled"><code>.col{breakpoint}{columns}</code></li>
+            </ul>
+        </div>
+        <div class="col12">
+            <div class="container">
+                <div class="row">
+                    <div class="col9 colLg2 bkgColor1 txtColor1 height-4">
+                        DIV 1 of 2<br><code class="color-04">.col9 .colLg2</code>
+                    </div>
+                    <div class="col3 colLg10 bkgColor2 txtColor1 height-4">
+                        DIV 2 of 2<br><code class="color-04">.col3 .colLg10</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="height-2">&nbsp;</div>
+            <pre>&lt;div class=&quot;colLg2&quot;&gt;...&lt;/div&gt;</pre>
+        </div>
+    </div>
+
+    <!-- Auto wrap -->
+    <h2>Auto wrap</h2>
+    <div class="row">
+        <div class="col12">
+          <div class="container">
+            <div class="row">
+              <div class="colSm6 colMd4 bkgColor1 txtColor1">
+                DIV 1 of 5<br><code class="color-04">.colSm6 .colMd4</code>
+              </div>
+              <div class="colSm6 colMd4 bkgColor2 txtColor1">
+                DIV 2 of 5<br><code class="color-04">.colSm6 .colMd4</code>
+              </div>
+              <div class="colSm6 colMd4 bkgColor2 txtColor1">
+                DIV 3 of 5<br><code class="color-04">.colSm6 .colMd4</code>
+              </div>
+              <div class="colSm6 colMd4 bkgColor2 txtColor1">
+                DIV 4 of 5<br><code class="color-04">.colSm6 .colMd4</code>
+              </div>
+              <div class="colSm6 colMd4 bkgColor2 txtColor1">
+                DIV 5 of 5<br><code class="color-04">.colSm6 .colMd4</code>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="height-2">&nbsp;</div>
+            <pre>&lt;div class=&quot;colSm6 colMd4&quot;&gt;...&lt;/div&gt;</pre>
+        </div>
+    </div>
 
     <!-- Auto width content -->
     <br><br>
@@ -609,38 +671,6 @@
             <pre>&lt;div class=&quot;colAuto&quot;&gt;...&lt;/div&gt;</pre>
         </div>
     </div>
-
-
-    <!-- Responsive columns -->
-    <br><br>
-    <h1>Responsive columns</h1>
-    <div class="row">
-        <div class="col12">
-            <ul>
-                <li class="listUnstyled"><code>.col{breakpoint}-{columns}</code></li>
-            </ul>
-        </div>
-        <div class="col12">
-            <div class="container">
-                <div class="row">
-                    <div class="col9 colLg2 bkgColor1 txtColor1 height-4">
-                        DIV 1 of 2<br><code class="color-04">.col9 .colLg2</code>
-                    </div>
-                    <div class="col3 colLg10 bkgColor2 txtColor1 height-4">
-                        DIV 2 of 2<br><code class="color-04">.col3 .colLg10</code>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <div class="height-2">&nbsp;</div>
-            <pre>&lt;div class=&quot;colLg2&quot;&gt;...&lt;/div&gt;</pre>
-        </div>
-    </div>
-
 
     <!-- Order classes -->
     <br><br>

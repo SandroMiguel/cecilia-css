@@ -33,11 +33,11 @@
 }
 
 .breakpoint::before {
-    content: "Breakpoint: 576px";
+    content: "576px";
 }
 
 .maxWidth::before {
-    content: "Maximum container width: 100%";
+    content: "100%";
 }
 
 @media (min-width: map.get(variables.$grid-breakpoints, 'sm')) {
@@ -46,11 +46,11 @@
     }
 
     .breakpoint::before {
-        content: "Breakpoint: 768px";
+        content: "768px";
     }
 
     .maxWidth::before {
-        content: "Maximum container width: 540px";
+        content: "540px";
     }
 }
 
@@ -60,11 +60,11 @@
     }
 
     .breakpoint::before {
-        content: "Breakpoint: 992px";
+        content: "992px";
     }
 
     .maxWidth::before {
-        content: "Maximum container width: 720px";
+        content: "720px";
     }
 }
 
@@ -74,11 +74,11 @@
     }
 
     .breakpoint::before {
-        content: "Breakpoint: 1200px";
+        content: "1200px";
     }
 
     .maxWidth::before {
-        content: "Maximum container width: 960px";
+        content: "960px";
     }
 }
 
@@ -88,11 +88,11 @@
     }
 
     .breakpoint::before {
-        content: "Breakpoint: 1440px";
+        content: "1440px";
     }
 
     .maxWidth::before {
-        content: "Maximum container width: 1140px";
+        content: "1140px";
     }
 }
 
@@ -102,10 +102,10 @@
     }
 
     .breakpoint::before {
-        content: "Breakpoint: none";
+        content: "none";
     }
 
     .maxWidth::before {
-        content: "Maximum container width: 1400px";
+        content: "1400px";
     }
 }

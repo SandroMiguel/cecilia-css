@@ -17,7 +17,7 @@ Cecilia CSS is the CSS framework that I use in my personal projects. While it wo
 -   There is no JavaScript included
 -   Only one dependency: [normalize.css](https://github.com/necolas/normalize.css)
 
-Get CSS code [here](dist/cecilia.css)
+[View demo](https://sandromiguel.github.io/cecilia-css)
 
 ## Table of Contents
 
