@@ -39,11 +39,11 @@
 }
 
 .breakpoint::before {
-  content: "Breakpoint: 576px";
+  content: "576px";
 }
 
 .maxWidth::before {
-  content: "Maximum container width: 100%";
+  content: "100%";
 }
 
 @media (min-width: 576px) {
@@ -51,10 +51,10 @@
     content: "sm";
   }
   .breakpoint::before {
-    content: "Breakpoint: 768px";
+    content: "768px";
   }
   .maxWidth::before {
-    content: "Maximum container width: 540px";
+    content: "540px";
   }
 }
 @media (min-width: 768px) {
@@ -62,10 +62,10 @@
     content: "md";
   }
   .breakpoint::before {
-    content: "Breakpoint: 992px";
+    content: "992px";
   }
   .maxWidth::before {
-    content: "Maximum container width: 720px";
+    content: "720px";
   }
 }
 @media (min-width: 992px) {
@@ -73,10 +73,10 @@
     content: "lg";
   }
   .breakpoint::before {
-    content: "Breakpoint: 1200px";
+    content: "1200px";
   }
   .maxWidth::before {
-    content: "Maximum container width: 960px";
+    content: "960px";
   }
 }
 @media (min-width: 1200px) {
@@ -84,10 +84,10 @@
     content: "xl";
   }
   .breakpoint::before {
-    content: "Breakpoint: 1440px";
+    content: "1440px";
   }
   .maxWidth::before {
-    content: "Maximum container width: 1140px";
+    content: "1140px";
   }
 }
 @media (min-width: 1440px) {
@@ -95,10 +95,10 @@
     content: "xxl";
   }
   .breakpoint::before {
-    content: "Breakpoint: none";
+    content: "none";
   }
   .maxWidth::before {
-    content: "Maximum container width: 1400px";
+    content: "1400px";
   }
 }
 
