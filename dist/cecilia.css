@@ -657,8 +657,9 @@ input[type=range] {
  * @link https://github.com/SandroMiguel/cecilia-css
  */
 /* ========================================================================== *
-   Base style > Typography > Headings
+   Base style > Typography
  * ========================================================================== */
+/* Typography > Headings */
 .h1,
 .h2,
 .h3,
@@ -704,27 +705,27 @@ input[type=range] {
 }
 
 .textLg {
-  font-size: 1.3rem;
+  font-size: calc(0.8rem + 0.5vw + 0.5vh);
 }
 
 .textXl {
-  font-size: 1.5rem;
+  font-size: calc(1rem + 0.5vw + 0.5vh);
 }
 
 .text2Xl {
-  font-size: 2rem;
+  font-size: calc(1.5rem + 0.5vw + 0.5vh);
 }
 
 .text3Xl {
-  font-size: 3rem;
+  font-size: calc(2rem + 0.5vw + 0.5vh);
 }
 
 .text4Xl {
-  font-size: 4rem;
+  font-size: calc(3rem + 0.5vw + 0.5vh);
 }
 
 .text5Xl {
-  font-size: 5rem;
+  font-size: calc(4rem + 0.5vw + 0.5vh);
 }
 
 /* ========================================================================== *
