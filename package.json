@@ -41,7 +41,7 @@
         "cecilia-classless": "^0.1.0",
         "cz-conventional-changelog": "^3.3.0",
         "husky": "^8.0.3",
-        "stylelint": "^14.16.1",
+        "stylelint": "^15.10.1",
         "stylelint-config-prettier-scss": "^0.0.1",
         "stylelint-config-standard-scss": "^6.1.0"
     },
