@@ -1,14 +1,4 @@
 /**
- * Default Sass variables.
- *
- * @copyright 2015-2023 Sandro Miguel Marques
- * @package Cecilia CSS
- * @author Sandro Miguel Marques - http://sandromiguel.com
- * @license MIT Open Source
- * @version v1.0.0 (2023/01/11)
- * @link https://github.com/SandroMiguel/cecilia-css
- */
-/**
  * Cecilia CSS sample.
  *
  * @copyright   2015-2023 Sandro Miguel Marques
@@ -17,6 +7,16 @@
  * @license     MIT Open Source
  * @version     v1.0.0 (2023/01/10)
  * @link        https://github.com/SandroMiguel/cecilia-css
+ */
+/**
+ * Default Sass variables.
+ *
+ * @copyright 2015-2023 Sandro Miguel Marques
+ * @package Cecilia CSS
+ * @author Sandro Miguel Marques - http://sandromiguel.com
+ * @license MIT Open Source
+ * @version v1.0.0 (2023/01/11)
+ * @link https://github.com/SandroMiguel/cecilia-css
  */
 .bkgColor1 {
   background-color: #e9ecef;
