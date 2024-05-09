@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.10.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.9.0...v0.10.0) (2024-05-09)
+
+
+### Features
+
+* **cecilia.scss:** add custom gutters ([0272de9](https://github.com/SandroMiguel/cecilia-css/commit/0272de9b4f5f23e79d324661eb33179b4f837730))
+* **docs/container.scss:** add container to docs ([1e028df](https://github.com/SandroMiguel/cecilia-css/commit/1e028dfb02114adfa5ceec4b022debee9db10b37))
+* rename .mb -&gt; .marginBottom ([0c7e1a7](https://github.com/SandroMiguel/cecilia-css/commit/0c7e1a7e2ad9d59b0dd1e6a596cad4608005368e))
+
 ## [0.9.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.8.0...v0.9.0) (2023-03-13)
 
 
