@@ -108,11 +108,11 @@
  * ========================================================================== */
 
  .container {
-    --gutter: 1.5rem;
+    --cecilia-gutter: 1.5rem;
 
     width: 100%;
-    padding-right: calc(var(--gutter) * 0.5);
-    padding-left: calc(var(--gutter) * 0.5);
+    padding-right: calc(var(--cecilia-gutter) * 0.5);
+    padding-left: calc(var(--cecilia-gutter) * 0.5);
     margin-right: auto;
     margin-left: auto;
 }
@@ -149,8 +149,8 @@
 
 .containerFull {
     width: 100%;
-    padding-right: calc(var(--gutter) * 0.5);
-    padding-left: calc(var(--gutter) * 0.5);
+    padding-right: calc(var(--cecilia-gutter) * 0.5);
+    padding-left: calc(var(--cecilia-gutter) * 0.5);
     margin-left: auto;
     margin-right: auto;
 }
@@ -158,16 +158,16 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: calc(-0.5 * var(--gutter));
-    margin-left: calc(-0.5 * var(--gutter));
+    margin-right: calc(-0.5 * var(--cecilia-gutter));
+    margin-left: calc(-0.5 * var(--cecilia-gutter));
   }
 
 .row > * {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
-    padding-right: calc(var(--gutter) * 0.5);
-    padding-left: calc(var(--gutter) * 0.5);
+    padding-right: calc(var(--cecilia-gutter) * 0.5);
+    padding-left: calc(var(--cecilia-gutter) * 0.5);
   }
 
 .col {
@@ -377,6 +377,18 @@
         .orderXxl#{$i} {
             order: #{$i};
         }
+    }
+}
+
+// Gutters
+// @for $i from 1 through 12 {
+//     .gutter#{$i} {
+//         --cecilia-gutter: #{$i}rem;
+//     }
+// }
+@each $i, $gutter in variables.$gutters {
+    .gutter#{$i} {
+        --cecilia-gutter: #{$gutter};
     }
 }
 
