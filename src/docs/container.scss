@@ -1,0 +1,111 @@
+/**
+ * Container sample.
+ *
+ * @copyright   2015-2024 Sandro Miguel Marques
+ * @package     Cecilia CSS
+ * @author      Sandro Miguel Marques - http://sandromiguel.com
+ * @license     MIT Open Source
+ * @version     v1.1.0 (2024-04-16)
+ * @link        https://github.com/SandroMiguel/cecilia-css
+ */
+
+@use '../variables';
+@use 'sass:map';
+
+.bkgColor1 {
+    background-color: #e9ecef;
+}
+
+.bkgColor2 {
+    background-color: #dee2e6;
+}
+
+.bkgColor3 {
+    background-color: #ced4da;
+}
+
+.bkgColor4 {
+    background-color: #000;
+}
+
+.containerName::before {
+    content: "xs";
+}
+
+.breakpoint::before {
+    content: "576px";
+}
+
+.maxWidth::before {
+    content: "100%";
+}
+
+@media (min-width: map.get(variables.$grid-breakpoints, 'sm')) {
+    .containerName::before {
+        content: "sm";
+    }
+
+    .breakpoint::before {
+        content: "768px";
+    }
+
+    .maxWidth::before {
+        content: "540px";
+    }
+}
+
+@media (min-width: map.get(variables.$grid-breakpoints, 'md')) {
+    .containerName::before {
+        content: "md";
+    }
+
+    .breakpoint::before {
+        content: "992px";
+    }
+
+    .maxWidth::before {
+        content: "720px";
+    }
+}
+
+@media (min-width: map.get(variables.$grid-breakpoints, 'lg')) {
+    .containerName::before {
+        content: "lg";
+    }
+
+    .breakpoint::before {
+        content: "1200px";
+    }
+
+    .maxWidth::before {
+        content: "960px";
+    }
+}
+
+@media (min-width: map.get(variables.$grid-breakpoints, 'xl')) {
+    .containerName::before {
+        content: "xl";
+    }
+
+    .breakpoint::before {
+        content: "1440px";
+    }
+
+    .maxWidth::before {
+        content: "1140px";
+    }
+}
+
+@media (min-width: map.get(variables.$grid-breakpoints, 'xxl')) {
+    .containerName::before {
+        content: "xxl";
+    }
+
+    .breakpoint::before {
+        content: "none";
+    }
+
+    .maxWidth::before {
+        content: "1400px";
+    }
+}
