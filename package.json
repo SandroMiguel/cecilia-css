@@ -25,7 +25,11 @@
     },
     "homepage": "https://sandromiguel.github.io/cecilia-css",
     "scripts": {
-        "build": "npx sass ./src/cecilia.scss:./dist/cecilia.css ./src/docs/sample.scss:./docs/assets/sample.css && npx sass --style=compressed ./src/cecilia.scss:./dist/cecilia.min.css && npx sass --style=compressed ./src/cecilia.scss:./docs/assets/cecilia.min.css",
+        "build:sample": "npx sass ./src/cecilia.scss:./dist/cecilia.css ./src/docs/sample.scss:./docs/assets/sample.css",
+        "build:min": "npx sass --style=compressed ./src/cecilia.scss:./dist/cecilia.min.css",
+        "build:module": "npx sass --style=compressed ./src/cecilia.scss:./dist/cecilia.module.css",
+        "build:docs": "npx sass --style=compressed ./src/cecilia.scss:./docs/assets/cecilia.min.css",
+        "build": "yarn run build:sample && yarn run build:min && yarn run build:module && yarn run build:docs",
         "watch": "npx sass --watch ./src/cecilia.scss:./dist/cecilia.css ./src/docs/sample.scss:./dist/assets/sample.css & npx sass --style=compressed ./src/cecilia.scss:./dist/cecilia.min.css & npx sass --watch --style=compressed ./src/cecilia.scss:./docs/assets/cecilia.min.css",
         "lint:scss": "stylelint \"./src/**/*.scss\""
     },
