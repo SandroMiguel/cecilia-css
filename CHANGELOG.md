@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.11.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.10.0...v0.11.0) (2024-05-15)
+
+
+### Features
+
+* **package.json:** build cecilia.module.css ([995091f](https://github.com/SandroMiguel/cecilia-css/commit/995091fd210410f0b1f60e1fe6ac9aa1bdedb1b9))
+
 ## [0.10.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.9.0...v0.10.0) (2024-05-09)
 
 
