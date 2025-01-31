@@ -1,6 +1,6 @@
 {
     "name": "cecilia-css",
-    "version": "0.11.0",
+    "version": "0.12.0",
     "description": "A set of tools for quick development of web interfaces.",
     "main": "dist/cecilia.min.css",
     "license": "MIT",

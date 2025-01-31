@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.12.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.11.0...v0.12.0) (2025-01-31)
+
+
+### Features
+
+* dNone ([f59cdd6](https://github.com/SandroMiguel/cecilia-css/commit/f59cdd643c698e4c83fb6e0f34a4333f3ac8353d))
+
 ## [0.11.0](https://github.com/SandroMiguel/cecilia-css/compare/v0.10.0...v0.11.0) (2024-05-15)
 
 
