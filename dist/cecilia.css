@@ -632,7 +632,7 @@ input[type=range] {
   --cecilia-font-family-base: var(--font-family-base, ubuntu, roboto, arial, sans-serif);
   --cecilia-font-family-code: var(--cecilia-font-family-code, monospace, consolas, "Liberation Mono", "Courier New", courier);
   --cecilia-font-size-base: var(--font-size-base, 1rem);
-  --cecilia-font-weight-base: var(--font-weight-base, 400);
+  --cecilia-font-weight-base: var(--font-weight-base, 300);
   --cecilia-line-height-base: var(--cecilia-line-height-base, 1.5);
   --cecilia-h1-font-size: var(--font-size-h1, calc(var(--cecilia-font-size-base) * 2.5));
   --cecilia-h2-font-size: var(--font-size-h2, calc(var(--cecilia-font-size-base) * 2));
@@ -1483,6 +1483,70 @@ input[type=range] {
   --cecilia-gutter: 3rem;
 }
 
+/* ========================================================================== *
+   Display none v1.0.0 (2024-05-31)
+ * ========================================================================== */
+.dNone {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .dNoneSm {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .dNoneMd {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .dNoneLg {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .dNoneXl {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .dNoneXxl {
+    display: none;
+  }
+}
+/* ========================================================================== *
+   Display flex v1.0.0 (2024-05-31)
+ * ========================================================================== */
+.dFlex {
+  display: flex;
+}
+
+@media (min-width: 576px) {
+  .dFlexSm {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .dFlexMd {
+    display: flex;
+  }
+}
+@media (min-width: 992px) {
+  .dFlexLg {
+    display: flex;
+  }
+}
+@media (min-width: 1200px) {
+  .dFlexXl {
+    display: flex;
+  }
+}
+@media (min-width: 1440px) {
+  .dFlexXxl {
+    display: flex;
+  }
+}
 /* ========================================================================== *
    Lists v1.0.0 (2023/01/14)
  * ========================================================================== */

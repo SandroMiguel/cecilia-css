@@ -15,6 +15,10 @@
  @use 'sass:map';
  @use 'sass:math';
 
+ @function capitalize($string) {
+    @return to-upper-case(str-slice($string, 1, 1)) + str-slice($string, 2);
+ }
+
 /* ========================================================================== *
    Base style > Typography
  * ========================================================================== */
@@ -389,6 +393,41 @@
 @each $i, $gutter in variables.$gutters {
     .gutter#{$i} {
         --cecilia-gutter: #{$gutter};
+    }
+}
+
+/* ========================================================================== *
+   Display none v1.0.0 (2024-05-31)
+ * ========================================================================== */
+
+.dNone {
+    display: none;
+}
+
+@each $i, $breakpoint in variables.$grid-breakpoints {
+    @if $i != 'xs' {
+        @media (min-width: $breakpoint) {
+            .dNone#{capitalize($i)} {
+                display: none;
+            }
+        }    
+    }
+}
+/* ========================================================================== *
+   Display flex v1.0.0 (2024-05-31)
+ * ========================================================================== */
+
+.dFlex {
+    display: flex;
+}
+
+@each $i, $breakpoint in variables.$grid-breakpoints {
+    @if $i != 'xs' {
+        @media (min-width: $breakpoint) {
+            .dFlex#{capitalize($i)} {
+                display: flex;
+            }
+        }    
     }
 }
 
